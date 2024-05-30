@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link rel="icon" href="/home/a07k-u/repos/Project-Library/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <dialog class="info">
+    <div class="dimaagKharab">
+    <div class="setP">Set Players</div>
+    <div class="playersInfo">
+      <form>
+        <p>
+          <label for="P1" class="p1p2">First Player</label>
+          <input type="text" id="P1" placeholder="Player 1" name="P1_name" />
+        </p>
+        <p class="vs00">vs</p>
+        <p>
+          <label for="P2" class="p1p2">Second Player</label>
+          <input type="text" id="P2" placeholder="Player 2" name="P2_name" />
+        </p>
+      </form>
+    </div>
+    <button class="submitButton">Start</button>
+  </div>
+  </dialog>
+  <div class="game">
+    <h2 class="title">XOXOXO</h2>
+    <div class="gameDetail">
+      <div class="DisplayP1">
+        <div id="p1name">Player 1</div>
+        <div id="p1score">0</div>
+      </div>
+      <div class="vs">vs</div>
+      <div class="DisplayP2">
+        <div id="p2name">Player 2</div>
+        <div id="p2score">0</div>
+      </div>
+    </div>
+    <div class="gameMessage">Hello!</div>
+    <div class="gameBoard">
+      <div class="cell cell-0-0"></div>
+      <div class="cell cell-0-1"></div>
+      <div class="cell cell-0-2"></div>
+      <div class="cell cell-1-0"></div>
+      <div class="cell cell-1-1"></div>
+      <div class="cell cell-1-2"></div>
+      <div class="cell cell-2-0"></div>
+      <div class="cell cell-2-1"></div>
+      <div class="cell cell-2-2"></div>
+    </div>
+    <div class="action">
+      <button id="resetButton">Reset</button>
+      <button id="restartButton">Restart</button>
+    </div>
+  </div>
+  <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,188 @@
+/**, body {
+	margin: 0;
+	padding: 0;
+}*/
+
+body, html {
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            background-color: #0f0f0f;
+            color: #c7c7c7;
+            font-family: 'Norse-Bold', sans-serif;
+}
+
+@font-face {
+    font-family: 'Norse-Bold';
+    src: url('/home/a07k-u/repos/Project-Sign-up-Form/Norse-Bold.otf') format('opentype'); /* Update the path to your font file */
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*.gameBoard {
+	display: flex;
+}*/
+
+.info {
+	position: absolute;
+	background: rgba(7, 7, 7, 0.5);
+	min-width: 480px;
+	border-radius: 15px;
+	border: none;
+	backdrop-filter: blur(10px);
+}
+
+.dimaagKharab {
+	display: flex;
+	flex-direction: column;
+	gap: 0.4375rem;
+	padding: 20px;
+	font-weight: bolder;
+	font-size: larger;
+	color: #c7c7c7;
+}
+
+.setP {
+	align-self: center;
+	margin-bottom: 15px;
+	font-size: 55px;
+	font-weight: bolder;
+}
+
+form {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 15px;
+}
+
+.p1p2 {
+	display: block;
+	text-align: center;
+	margin-bottom: 15px;
+	font-size: 30px;
+}
+
+#P1, #P2 {
+	text-align: center;
+	width: 100%;
+    height: 2.625rem;
+    background: #191919;
+    box-shadow: inset 0.1875rem 0.25rem 0.125rem 0.0625rem rgba(7, 7, 7, 0.5);
+    border: none;
+    text-align: center;
+    padding: 0.4375rem;
+    color: #c7c7c7;
+    font-family: "Slab";
+    font-size: 1.125rem;
+    outline: none;
+    border-radius: 0.5rem;
+    transition: all 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.25);
+    font-family: 'Poppins', sans-serif;}
+
+.vs00 {
+	text-align: center;
+	align-self: center;
+	padding-left: 10px;
+}
+
+.submitButton {
+	background: #3b9d5f;
+    color: #070707;
+    font-size: 0.875rem;
+    padding: 0.875rem 1.3125rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    font-size: 1.125rem;
+    font-weight: bold;
+    font-family: "PS700";
+    position: relative;
+    width: 20%;
+    text-align: center;
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+/*form < p {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}*/
+
+.game {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	min-width: 380px;
+}
+
+.title {
+	margin-bottom: 50px;
+	margin-top: 40px;
+	font-size: 60px;
+}
+
+.gameDetail {
+	    display: flex;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    gap: 30px;
+    font-size: xxx-large;
+    margin-bottom: 50px;
+}
+
+.DisplayP1, .DisplayP2 {
+	display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.gameMessage {
+	font-size: xx-large;
+	margin-bottom: 50px;
+}
+
+.gameBoard {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 15px;
+	margin-bottom: 65px;
+	align-items: center;
+}
+
+.cell {
+	height: 7rem;
+	width: 7rem;
+	color: #c7c7c7;
+	background-color: #212121;
+	font-weight: bolder;
+	border: none;
+	border-radius: 8px;
+	font-size: 60px;
+	align-content: center;
+}
+
+.action {
+	display: flex;
+	justify-content: space-evenly;
+	margin-bottom: 20px;
+}
+
+#restartButton, #resetButton {
+	background: #b53b3b;
+    color: #c7c7c7;
+    font-size: 0.875rem;
+    padding: 6px 22px;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+    font-size: 1.125rem;
+    font-family: 'Norse-Bold', sans-serif;
+    text-align: center;
+    align-self: center;
+}
