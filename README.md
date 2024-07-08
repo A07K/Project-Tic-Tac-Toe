@@ -37,6 +37,3 @@
         <li>Add animations for a more engaging user experience</li>
         <li>Create a responsive design for better mobile gameplay</li>
     </ul>
-
-   <h2>Contributors</h2>
-    <p>This project was created by [Your Name/Team Name]. Contributions and suggestions for improvements are welcome!</p>
